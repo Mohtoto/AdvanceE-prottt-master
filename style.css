@@ -164,7 +164,7 @@ textarea{
     transition: 0.5s;
 }
 
-.dark-theme .title:hover span {
+.dark-theme span:nth-child(2):hover  {
 
     color: #FFF;
     text-shadow: 0 0 10px #fff,
@@ -182,10 +182,6 @@ textarea{
     margin-right: 10px;
 }
 
-.title:hover span:nth-child(1):after{
-
-    content: "'M";
-}
 
 .title:hover span:nth-child(2){
 
