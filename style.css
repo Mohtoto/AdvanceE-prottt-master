@@ -184,11 +184,11 @@ textarea{
 }
 
 
-.title:hover span:nth-child(2){
+ .title:hover span:nth-child(2){
 
-    margin-left: 35px;
+    margin-left: 20px;
 }
-
+ 
 
 
 
@@ -1098,7 +1098,7 @@ width = 80vw
 
     .title{
 
-        font-size: 80px;
+        font-size: 50px;
     }
 
     .header__para{
@@ -1134,7 +1134,12 @@ width = 80vw
 
     .title{
 
-        font-size: 52px;
+        font-size: 30px;
+    }
+
+    .title span {
+
+        font-size: 30px
     }
 
     .header__para{
@@ -1170,4 +1175,4 @@ width = 80vw
 
         padding: 40px;
     }
- }mohtoto
+ }
