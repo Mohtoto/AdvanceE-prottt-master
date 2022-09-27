@@ -1124,6 +1124,10 @@ width = 80vw
         width: 100%;
 
     }
+
+    .dark-theme .personal-logo {
+        filter: invert(1);
+    }
  }
 
 
@@ -1174,5 +1178,9 @@ width = 80vw
     .modal__half{
 
         padding: 40px;
+    }
+
+    .dark-theme .personal-logo {
+        filter: invert(1);
     }
  }
