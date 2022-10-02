@@ -39,6 +39,8 @@ function toggleContrast() {
     }
   }
 
+  
+
 function contact(event){
     event.preventDefault();
     const loading = document.querySelector('.modal__overlay--loading')
@@ -54,7 +56,7 @@ function contact(event){
         loading.classList.remove('modal__overlay--visible');
         success.classList +=' modal__overlay--visible'
 
-        console.log('it worked')
+      
      }).catch(() => {
         
         loading.classList.remove('modal__overlay--visible');
