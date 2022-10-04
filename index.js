@@ -4,6 +4,7 @@ let isModalOpen = false ;
 const scaleFactor = 1 /20
 
 
+
 function moveBackground(event){
 
     const shapes = document.querySelectorAll(".shape")
