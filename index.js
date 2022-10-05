@@ -22,14 +22,6 @@ function moveBackground(event){
 
 
 
-
-
-
-
-
-
-
-
 function toggleContrast() {
     contrastToggle = !contrastToggle;
     if (contrastToggle) {
